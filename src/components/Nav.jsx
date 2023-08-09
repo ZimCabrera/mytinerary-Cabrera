@@ -1,14 +1,17 @@
+import Anchor from './Anchor'
 
-function Nav() {
+export default function Nav() {
+  let data = [
+    {href:'home.html', texto:'HOME'},
+    {href:'about.html', texto:'ABOUT'},
+    {href:'register.html', texto:'REGISTER'},
+    {href:'info.html', texto:'INFO'},
+    {href:'contact.html', texto:'CONTACT'}
+  ]
+
   return (
     <nav>
-        <a href='home.html'>Home</a>
-        <a href='about.html'>About</a>
-        <a href='register.html'>Register</a>
-        <a href='info.html'>Information</a>
-        <a href='contact.html'>Contact</a>
+      {data.map((each,key)=><Anchor key={key} href={each.href} texto={each.texto}></Anchor>)}
     </nav>
   )
 }
-
-export default Nav
