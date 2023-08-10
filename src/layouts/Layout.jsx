@@ -1,11 +1,13 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-function Layouts({children}) {
+import { Outlet } from 'react-router-dom'
+
+function Layouts() {
   return (
     <>
       <Header />
-      {children}
+      <Outlet/>
       <Footer />
     </>
   )

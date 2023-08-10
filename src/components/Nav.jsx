@@ -2,11 +2,8 @@ import Anchor from './Anchor'
 
 export default function Nav() {
   let data = [
-    {href:'home.html', texto:'HOME'},
-    {href:'about.html', texto:'ABOUT'},
-    {href:'register.html', texto:'REGISTER'},
-    {href:'info.html', texto:'INFO'},
-    {href:'contact.html', texto:'CONTACT'}
+    {href:'#', texto:'HOME'},
+    {href:'./pages/Cities', texto:'CITIES'},
   ]
 
   return (
