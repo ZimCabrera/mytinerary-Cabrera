@@ -3,9 +3,9 @@
 export default function Home() {
   return (
     <div className="home">
-      <CallToAction/>
+      {/* <CallToAction/>
       <h2>Cities Image</h2>
-      <Carousel images={images}/>
+      <Carousel images={images}/> */}
 
     </div>
   )
