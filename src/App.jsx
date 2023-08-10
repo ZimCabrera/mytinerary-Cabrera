@@ -1,5 +1,6 @@
 import Layouts from './layouts/Layouts'
 import Main from './components/Main'
+import Contact from './pages/Contact'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <Layouts>
-        <Main/>
+        <Contact />
       </Layouts>
       
     </>

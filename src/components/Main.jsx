@@ -10,7 +10,7 @@ function Main() {
   return (
     <main>
 
-      {data.map((each,key)=><Article key={key} titulo={each.titulo} texto={each.texto}></Article>)}
+      {data.map((each,indice)=><Article key={indice} titulo={each.titulo} texto={each.texto}></Article>)}
       
     </main>
   )
