@@ -12,7 +12,7 @@ const router = createBrowserRouter([
   },
   {path:'/cities',element:<Layout />,
     children:[
-      {path:'/cities',element:<Cities />}
+      {path:'/cities',element:<Cities />},
     ]
   }
 
@@ -22,6 +22,7 @@ function App() {
 
   return (
     <>
+      
       <RouterProvider router={router}></RouterProvider>
       
     </>

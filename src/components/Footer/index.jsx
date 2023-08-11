@@ -1,8 +1,8 @@
 
 function Footer() {
   return (
-    <footer>
-        <p>&copy;2023 - Todos los derechos reservados</p>
+    <footer className="footer min-w-full h-12 bg-black">
+        <p className="py-2 tracking-widest">&copy;2023 - MYTINERARY All Rights Reserved.</p>
     </footer>
   )
 }
