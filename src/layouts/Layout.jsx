@@ -10,7 +10,6 @@ function Layouts() {
   return (
     <>
       <Header />
-      <Hero />
       <Outlet/>
       <Footer />
     </>
