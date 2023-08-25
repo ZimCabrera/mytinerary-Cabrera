@@ -1,14 +1,12 @@
+import Carousel from '../../components/Carousel'
 
-
-export default function Home() {
+function Home() {
   return (
-    <div className="home">
-      {/* <CallToAction/>
-      <h2>Cities Image</h2>
-      <Carousel images={images}/> */}
-
+    <div>
+      <Carousel />
     </div>
   )
 }
 
+export default Home
 
