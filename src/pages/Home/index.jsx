@@ -1,10 +1,12 @@
+import Card from '../../components/Card'
 import Carousel from '../../components/Carousel'
 
 function Home() {
   return (
-    <div>
+    <main>
+      <Card />
       <Carousel />
-    </div>
+    </main>
   )
 }
 

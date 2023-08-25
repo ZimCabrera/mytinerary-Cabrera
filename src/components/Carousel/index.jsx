@@ -9,7 +9,7 @@ const data = [
     { name: "London - UK", image: "assets/London.jpg" },
     { name: "Cancun - Mexico", image: "assets/Cancun.jpg" },
     { name: "Moscow - Russia", image: "assets/Moscow.jpg" },
-    { name: "New York - USA", image: "assets/.jpg" },
+    { name: "New York - USA", image: "assets/New-York.jpg" },
     { name: "Rome - Italy", image: "assets/Rome.jpg" },
     { name: "París - France", image: "assets/Paris.jpg" },
     { name: "Sao Paulo - Brazil", image: "assets/.jpeg" },
