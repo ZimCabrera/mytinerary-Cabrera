@@ -1,6 +1,6 @@
-import Hero from './components/Hero'
-import PopularMyTinerari from './components/PopularMyTinerari'
-import Button from './components/Button'
+import Hero from "../../components/Hero"
+import PopularMyTinerary from "../../components/PopularMyTinerary"
+import Button from "../../components/Button"
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
             link={"cities"}/>
         </div>
       </Hero>
-      <PopularMyTinerari/>
+      <PopularMyTinerary/>
     </main>
   )
 }

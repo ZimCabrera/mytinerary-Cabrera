@@ -1,4 +1,4 @@
-import Carousel from "./Carousel"
+import Carousel from "./Carousel/index"
 
 export default function PopularMyTinerary() {
   return (
